@@ -10,7 +10,7 @@ import itertools
 from hashlib import sha256
 
 DEFAULT_BALANCE = 10000
-ACCESS_TOKEN = "4nvlaqguf8fsc6bvz3wqi3jbk8ocd5"
+ACCESS_TOKEN = "4nvlaqguf8fsc6bvz3wqi3jbk8ocd5" # revoked this token
 DEFAULT_SAVE_LOCATION = "./accounts.pkl"
 ALLIES = ["vidya_vinny", "diego_sparx"]
 ENEMIES = ["ginobili", "forever21"]
