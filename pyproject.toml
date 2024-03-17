@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vpsq6-bot"
+version = "0.1.0"
+description = ""
+authors = ["Ted Chen <nanflasted@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vpsq6_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+twitchio = "^2.8.2"
+pillow = "^10.2.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.22.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
